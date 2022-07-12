@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>هدية</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+    
+    <!--touch font awesome-->
+    <link rel="stylesheet" href="stylesheets/all.min.css">
+
+
+    <!--toast meassage styles-->
+    <!-- <link rel="stylesheet" type="text/css" href="https://unpkg.com/toastmaker/dist/toastmaker.min.css"> -->
+
+
+    <link rel="stylesheet" href="styleSheets/header.css">
+    <link rel="stylesheet" href="styleSheets/common.css">
+    <link rel="stylesheet" href="styleSheets/mainStyle.css">
+
+    <link rel="stylesheet" href="styleSheets/profile2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Gift</a>
+
+                <i class="fa fa-lightbulb fa-lg light" onclick="illuminate_turnOff()"></i>
+
+                <nav>
+                    <ul class="navi-links">
+                        <li id="signIn"><a href="">Sign In</a></li> <!--href="login.html"-->
+                        <li><a href="register.html">Sign Up</a></li>
+                    </ul>           
+                    <ul class="user-registered">
+                        <li id="user"><i class="fas fa-user fa-lg"></i><a href="profile.html">user</a></li>
+                        <li id="Shcart" onclick="showDropdown()">
+                        <i class="fas fa-shopping-cart fa-lg"></i>
+                        <span class="badge">0</span></li>
+                        <div class="dropdown">
+                            <div class="cart-menu">
+                            </div>
+                            <a class="showAllCart" href="cart.html"></a>
+                        </div>
+                        <li id="logout"><a href="login.html">Log Out</a></li>
+                    </ul>         
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="drak">
+        <div class="profile-area"></div>
+
+        <div class="focus"></div>
+
+       
+        <div class="shape shape1">
+            <div class="circle"> 
+                <i class="fas fa-heart icon  myFav-icon"></i>
+            </div>
+            <div class="semi-rectangle">
+                <p class="show-those"> Show My Loved Gifts</p>
+            </div>
+        </div>
+
+        <div class="shape shape2">
+            <div class="circle"> 
+                <i class="fas fa-gift icon  myGifts-icon"></i>
+            </div>
+            <div class="semi-rectangle">
+                <p class="show-those"> Show My Own Gifts</p>
+            </div>
+        </div>
+    </section>
+    
+    <div class="items">
+
+        <div class="items-head">
+            <p></p>
+            <hr>
+        </div>
+        <div class="items-body">
+            <div class="items-body-content">
+                <span></span>
+                <i class="fa fa-angle-right"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="update-dialouge">
+        <div>
+            <h2>UPDATE IMAGE</h2>
+            <p class="hint">&nbsp; &nbsp; to Update your Profile Image, just Click on Your Image</p>
+        </div>
+       <div>
+        <h2>UPDATE Name</h2>
+        &nbsp; &nbsp; <input type="text" class="update-name-input">
+       </div>
+       <div>
+        <h2>UPDATE Phone</h2>
+        &nbsp; &nbsp; <input type="text" class="update-phone-input">
+       </div>
+
+       <div class="buttons">
+        &nbsp; &nbsp; <button class="update-btn" onclick="UPDate()">Update</button>
+                      <button class="cancel-btn" onclick="CANcel()">Cancel</button>
+       </div>
+ 
+
+    </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script type="text/javascript">
+            $(document).mousemove((e)=>{
+                var x =e.pageX;
+                var y =e.pageY;
+                $('.focus').css('background', 
+                'radial-gradient(circle at '+x+'px '+y+'px, transparent, #000 40%)')
+            })
+        </script>
+
+        <!--raw Data-->
+        <!-- <script src="scripts/rawData.js"></script> -->
+        <!--Universal Scripts: -->
+        <!--::per header-->
+        <script src="scripts/personalizeUser.js"></script>
+        
+        
+        <!--Customize Scripts per this Page: index.html-->
+        <!-- <script src="scripts/index.js"></script> -->
+        <script src="scripts/mainScript.js"></script>
+        <script src="scripts/profile2.js"></script>
+    </body>
+    </html>

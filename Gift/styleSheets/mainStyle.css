@@ -1,0 +1,405 @@
+/**/
+header{
+    left: 0;
+    top: 0;
+}
+.header-content .brand{
+    flex: 4%;
+}
+
+nav{
+    flex: 86%;
+    text-align: right;
+} 
+.change-lang{
+    /* flex: 10%; */
+    display: inline-block;
+   flex: 10%;
+}
+.change-lang a{
+   color: #fff;
+   width: 15px;
+   padding: 3px;
+   text-decoration: none;
+}
+/********************* Form *******************************/
+.form-tablue{
+    position: absolute;
+    left: 70%;
+    top: 52.5%; 
+    transform: translate(-50%, -50%);
+
+    width: 450px;
+    height: 600px;
+
+    background-color: #ff7171;
+    border-radius: 3%;
+
+    text-align: center;
+}
+.form-tablue .login-title{
+    color: #9fd8df;
+    font-size: 46px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 100px 0;
+}
+.form-tablue  span,
+.form-tablue  a{
+    display: inline-block;
+    color: #9fd8df;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 20px 0;
+}
+.form-tablue .login-title::after{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 10px ;
+    color: #9fd8df;
+    background-color: #9fd8df;
+}
+/*.form-tablue form{}*/
+.form-tablue form input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 5px auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    outline: 0;
+}
+/*.form-tablue form input:focus{border: none;}*/
+.form-tablue form input:focus{
+    background-color: #f0e4d7;
+    border: solid 3px #9fd8df;
+}
+input[id="login"],
+input[id="register"]{
+    height: auto;
+    color: #9fd8df;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+input[id="login"]:hover,
+input[id="register"]:hover{
+    background-color: #9fd8df;
+    color: #fff;
+    border: none;
+}
+/****************************************************************/
+#search{
+    display: block;
+    width: 50%;
+    height: 40px;
+    margin: 120px auto 0;
+    
+    padding: 10px;
+    border: solid #389393 1px;
+    border-radius: 5px 0px 0px 5px;
+    -webkit-transition: box-shadow linear 0.2s;
+    transition: box-shadow linear 0.2s, width 500ms ease;
+  }
+  
+#search:focus {
+    outline: none;
+    border-color: #fff591;
+    box-shadow: 0 0 10px #9ecaed;
+    width: 55%;
+}
+  
+#search:hover {
+    border-color: #ff7171;
+    box-shadow: 0 0 10px #ff7171;
+    width: 60%;
+}
+/* #search{
+    margin: 90px auto 0;
+    display: block;
+    width: 60%;
+    height: 40px;
+    border: solid 1px #389393;
+    font-size: 14px;
+    padding: 15px;
+    color: #ff7171;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+#search:focus{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+} */
+
+
+/*===========================================================*/
+/** Index: Homa Page styles*/
+
+
+
+.product-item{
+    width: 270px;
+    height: auto;
+    margin: 50px 1%;
+    
+    display: inline-block;
+
+    border: solid 2px #cccbcb;
+}
+
+
+
+.declareNoGifts{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 22px;
+    color: #389393;
+}
+.declareNoGifts span{
+    font-size: 32px;
+    color: #fff591;
+}
+
+
+
+.view-window {
+    width : 100%;
+    height: 60%;
+    margin-bottom: 10px;
+    padding: 20px;
+
+    position: relative;
+}
+.product-control{
+    color: #389393;
+    position: absolute;
+    font-size: 26px;
+    right: -10px;
+    top: 0;
+
+    cursor: pointer;
+}
+
+.control-menu{
+    width: 100px;
+    height: 60px;
+    background-color: #fff;
+    position: absolute;
+    right: -110px;
+    top: -60px;
+    border: solid 1px #389393;
+
+    display: none;
+}
+.control-menu p{
+    width: 100%;
+    height: 50%;
+    padding: 3px 6px;
+    color: #888;
+}
+.control-menu p:hover{
+    color: #389393;
+}
+.control-menu .edit{
+    border-bottom: solid 1px #888;
+}
+.control-menu .edit a{
+    width: 100%;
+    height: 100%;
+    color: #888;
+    text-decoration: none;
+}
+.control-menu .edit a:hover{
+    color: #389393;
+}
+.control-menu .delete{
+    cursor: pointer;
+}
+
+
+.view-window img{
+    width: 100%;
+    height: 100%;
+}
+.view-window img:hover{
+    transform: scale(1.1);
+}
+
+/*================================================================*/
+.prduct-item-info{
+    background-color: #fff591;
+}
+.prduct-item-info h2{
+    color: #389393;
+    padding: 15px;
+}
+.prduct-item-info h2 a{
+    color: #389393;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.prduct-item-info p{
+    color: gray;
+    /* margin-bottom: 10px; */
+    padding: 15px;
+
+}
+.prduct-item-info .price{
+    color: #ff7171;
+    padding: 15px;
+}
+.prduct-item-info .price span{
+    font-size: 36px;
+    display: block;
+    width: 50px;
+    margin: auto;
+    color: #ff7171;
+}
+/*****************************************************************/
+.product-item-actions {
+    text-align: right;
+    height: 70px;
+    background-color: #ff7171;
+    padding: 0 10px;
+
+    position: relative;
+}
+.product-item-actions button{
+    border: 0;
+    width: 120px;
+    height: 80%;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px 0;
+    font-size: 18px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+.product-item-actions .add-to-cart{
+    background-color: #389393;
+    color: #fff591;
+    cursor:pointer;
+}
+.product-item-actions .added{
+    background-color: #fff591;
+    color: #389393;
+    cursor:auto;
+}
+
+
+
+
+
+
+.product-item-actions .heart{
+    color: #fff591;
+    font-size: 32px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 32%;
+    left: 84%;
+}
+.product-item-actions .quantityController{
+    text-align: center;
+    width: 50px;
+    height: 70px;
+}
+.product-item-actions .quantityController .icon-space{
+    width: 50px;
+    height: 20px;
+}
+.product-item-actions .quantityController i{
+    width: 100%;
+    height: 100%;
+
+    font-size: 26px;
+    color: #fff591;
+    cursor: pointer;
+    /* line-height: 10px; */
+}
+.product-item-actions .quantityController span{
+    font-size: 22px;
+    height: 30px;
+    /* padding: 10px; */
+    color: #389393;
+}
+/****************************************************************************/
+/*style add icon*/
+
+.addIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff591;
+
+    position: fixed;
+    right: 37px;
+    bottom: 28px;
+
+    text-align: center;
+
+}
+.addIcon a{
+    width: 100%;
+    height: 100%;
+}
+.addIcon a i{
+    color: #ff7171;
+    line-height: 50px;
+}
+/************************************************************************************************/
+/**********************************Filteration Styles********************************************/
+/************************************************************************************************/
+
+.filter{
+    height: 200px;
+    width: 100%;
+
+    text-align: center;
+    padding: 40px;
+    margin: 20px 0;
+}
+.filter span{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: lightblue;
+    text-transform: capitalize;
+
+    transition: opacity 0.2s;
+}
+.filter span:hover{
+    opacity: .8;
+
+}
+.filter .mens,
+.filter .womens,
+.filter .adults,
+.filter .teenegers{
+    width: 130px;
+}
+
+
+
+
+
+
+
+

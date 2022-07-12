@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> <!--lang="ar" dir="rtl"-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>هدية</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+        
+        <!--touch font awesome-->
+        <link rel="stylesheet" href="stylesheets/all.min.css">
+
+        <link rel="stylesheet" href="styleSheets/header.css">
+        <link rel="stylesheet" href="styleSheets/common.css">
+        <link rel="stylesheet" href="styleSheets/product.css">
+
+        <!-- <link rel="stylesheet" href="styleSheets/mainStyle.css"> -->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-content">
+                    <a href="index.html" class="brand">Gift</a>
+    
+                    <nav>
+                        <ul class="navi-links">
+                            <li id="signIn"><a href="">Sign In</a></li> <!--href="login.html"-->
+                            <li><a href="register.html">Sign Up</a></li>
+                        </ul>           
+                        <ul class="user-registered">
+                            <li id="user"><i class="fas fa-user fa-lg"></i><a href="profile2.html">user</a></li>
+                            <li id="Shcart" onclick="showDropdown()">
+                                <i class="fas fa-shopping-cart fa-lg"></i>
+                                <span class="badge">0</span></li>
+                                <div class="dropdown">
+                                    <div class="cart-menu">
+                                    </div>
+                                    <a class="showAllCart" href="cart.html"></a>
+                                </div>
+                                <li id="logout"><a href="login.html">Log Out</a></li>
+                        </ul>         
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="product">  
+        </section>
+        <section class="product-reviews">
+            <div class="container">
+                <div class="comment">
+                    <div class="headLine">
+                          People Reviews
+                    </div>
+                    <div class="comment-bag">
+                        
+                    </div>
+
+                    <div class="inputs">
+                        <div class="update-comment">
+                            <input id="comment-up" type="text"> <!--submit it with enter-->
+                        </div>
+
+                        <div class="write-comment">
+                            <input id="comment" type="text" placeholder="write your Review Comment..."> <!--submit it with enter-->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>              
+        </section>
+
+        <footer>
+        </footer>
+
+        
+
+
+
+
+
+    
+        <!--raw Data-->
+        <script src="scripts/rawData.js"></script>
+        <!--Universal Scripts: -->
+        <!--::per header-->
+        <script src="scripts/personalizeUser.js"></script>
+
+        <!--Customize Scripts per this Page: index.html-->
+        <script src="scripts/mainScript.js"></script>
+
+        <!--Customized scripts-->
+        <script src="scripts/product.js"></script>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+[dir="rtl"] nav{
+    text-align: left;
+}
+[dir="rtl"] .product-item-actions .quantityController{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+}
+[dir="rtl"] .dropdown{
+    right: 73%;
+    top: 40px;
+}
+[dir="rtl"] .dropdown .cart-menu .cart-item  .individual-badge{
+    right:  8px;
+}

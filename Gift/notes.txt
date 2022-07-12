@@ -1,0 +1,29 @@
+Globalization:
+- ar-en lamg
+
+personalization:
+- registeration.::DONE
+- logging in.::DONE
+- enable multible user with different roles(guest, member, admin)
+
+gift product Main Functionality:
+- create and post your product as logged in user!.::DONE
+- edit it, you can not edit one not to you!.::DONE
+- remove it, you can not remove one not belongs to you!.::DONE
+- like gift products and preserve likes numbers.::DONE   //
+- comment on any product, and prserve comments for each to any user.::DONE  //
+- show details of each product individually.::DONE
+- search gift products by name.::DONE
+- filter gift products by category.::DONE         //
+
+
+Cart Main Functionality:
+- add to Cart.::DONE
+- remove from Cart.::DONE
+- do not doublicate items on Cart.::DONE ان شاء الله 
+
+
+
+// the last Day::
+تحويل بين اللغات العربية والانجليزية كفكرة**
+ضبط الداتا المستخلصات الراجعات والعابثات الواضعات**

@@ -1,0 +1,46 @@
+body{
+    /* background-color: #f5c0c0; */
+    background-color: #9fd8df;
+    /* background-color: #f0e4d7;    */
+
+    width: 100%;
+    height: 100vh;
+}
+
+.cancel-message-layer{
+    display: none;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(3, 3, 3, 0.2);
+}
+.unregistered-message{
+    display: none;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 650px;
+    /* height: 400px; */
+    background-color: #f0e4d7;
+    text-align: center;
+    padding: 150px 0;
+    border: solid 1px #fff;
+}
+.unregistered-message span{
+    font-size: 22px;
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #ff7171;
+}
+.unregistered-message p{
+    color: gray;
+    letter-spacing: 2px;
+}
+
+
+
+

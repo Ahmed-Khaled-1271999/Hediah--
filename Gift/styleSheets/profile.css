@@ -1,0 +1,127 @@
+/*overWrite (customize) some header Styles to Aplly colo Theme*/
+body{
+    /* background-color: #666c74; */
+}
+header{
+    left: 0;
+    top: 0;
+    background-color: #060930;
+
+}
+.header-content .brand{
+    color: #627979;
+}
+.user-registered i{
+    color: #627979;
+}
+.cart{
+    width: 100%; 
+    background-color: #627979;
+}
+#Shcart i{
+    color: #C7CBB9;
+}
+#Shcart .badge{
+    background-color: #627979;
+}
+/************************************************************************************************/
+.profile{
+    margin-top: 40px;
+    display: flex;
+    height: 94.5vh;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+/***************************************************************/
+.profile .profile-area{
+    flex: 40%;
+    height: 100%;
+
+    background-color: #C7CBB9;
+}
+
+/**********************************************************************/
+/**********************************************************************/
+.profile .profile-area .card{
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: #627979;
+
+    display: none;
+}
+.profile .profile-area  h1{
+    color: #060930;
+    padding: 20px 0;
+}
+.profile .profile-area .card .title{
+    color: #C7CBB9;
+    font-size: 18px;
+}
+.profile .profile-area .card button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #C7CBB9;
+    background-color: #060930;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.profile .profile-area .card a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #060930;
+} 
+.profile .profile-area .card button:hover,
+.profile .profile-area .card a:hover {
+    opacity: 0.7;
+}
+/**********************************************************************/
+/**********************************************************************/
+
+/***************************************************************/
+.profile .animation-area{
+    flex: 60%;
+}
+.profile .animation-area.animated{
+
+    background:url('../images/backgrounds/profileAnimation.gif') no-repeat 100% 100% fixed;
+    background-size: contain;
+    height:100%;
+    width:100%;
+}.profile .animation-area.antimated{
+
+    background:url('../images/backgrounds/lastShot.png') no-repeat 100% 100% fixed;
+    background-size: contain;
+    height:100%;
+    width:100%;
+}
+/*********************************************************************/
+.profile-area .card .contribution{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile-area .card .contribution .part{
+    margin-right: 20px;
+}
+.profile-area .card .contribution .part i,
+.profile-area .card .contribution .part p,
+.profile-area .card .contribution .part span{
+    padding: 3px;
+}
+
+
+
+
+
